@@ -6,6 +6,11 @@
     <title>Interactive Animated Hero Section with Particle Effects &amp; 3D Elements</title>
 
   <style>
+	  ::selection {
+    background-color: #9D30D4;
+    color: #fff;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -459,7 +464,13 @@ body {
                   Example WebApp you could point to:&nbsp;&nbsp; </span><span style="line-height: 1;font-size:14px;">https://maps.google.com<br>
                   java --module-path lib --add-modules javafx.controls,javafx.web -jar viewer.jar "https://maps.google.com" "G-Maps"&nbsp; &nbsp;<br></span><br>Below are some more examples (besides the GitHub button), Just click to test.</p>
 <div class="hero-buttons">
-        <button class="btn btn-primary"><span style="font-size:22px;"><span style="font-family:Verdana, Geneva, sans-serif;font-size:22px;">GitHub</span></span></button>
+        <a href="https://github.com/rmellis/JavaWebViewer">
+	    <button class="btn btn-primary">
+		<span style="font-size:22px;">
+		<span style="font-family:Verdana, Geneva, sans-serif;font-size:22px;">GitHub</span>
+		</span>
+		</button>
+		</a>
                     <a href="https://maps.google.com">
                     <button class="btn btn-secondary">
                     <span style="font-size:22px;">

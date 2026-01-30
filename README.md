@@ -10,23 +10,27 @@ Opens index.htm from current directory (1200x800 window)
 
 Command Line Arguments
 ----------------------
-viewer.jar "[url]" "[title]" [width] [height] [fullscreen] [maximized] [resizable] [alwaysontop] [x] [y]
+viewer.jar "[url]" "[title]" [width] [height] [fullscreen] [maximized] [resizable] [alwaysontop] [x] [y] [icon]
 
-1: url              (URL/path)        Default: index.htm
-2: title            (string)          Default: "Local HTML Viewer"  
-3: width            (px/auto)         Default: 1200
-4: height           (px/auto)         Default: 800
-5: fullscreen       (true/false)      Default: false
-6: maximized        (true/false)      Default: false
-7: resizable        (true/false)      Default: true
-8: alwaysontop      (true/false)      Default: false
-9: x                (px/center)       Default: center
-10:y                (px/center)       Default: center
+1:  url              (URL/path)            Default: index.htm<br>
+2:  title            (string)              Default: "Local HTML Viewer"<br>
+3:  width            (px/auto)             Default: 1200<br>
+4:  height           (px/auto)             Default: 800<br>
+5:  fullscreen       (true/false)          Default: false<br>
+6:  maximized        (true/false)          Default: false<br>
+7:  resizable        (true/false)          Default: true<br>
+8:  alwaysontop      (true/false)          Default: false<br>
+9:  x                (px/center)           Default: center<br>
+10: y                (px/center)           Default: center<br>
+11: icon             (URL / path / auto)   Default: null<br>
 
 Usage Examples
 --------------
 Basic:
 viewer.jar "folder/index.html" "My WebApp"
+
+Basic with icon:
+viewer.jar "folder/index.html" "My WebApp" auto auto false false false center center icon.png
 
 Kiosk Mode:
 viewer.jar "kiosk/dashboard.html" "Dashboard" true true false
@@ -41,11 +45,12 @@ JavaWebViewer.zip
 ├── index.htm
 ├── javafx/
 ├── Launch.bat
+├── icon.png
 └── Launch-FullScreen.bat
 
 Launch.bat:
 @echo off
-java --module-path lib --add-modules javafx.controls,javafx.web -jar viewer.jar "index.htm" "Java WebApp" 1200 760 true
+java --module-path lib --add-modules javafx.controls,javafx.web -jar viewer.jar "index.htm" "Java WebApp" 1200 760 false false false center center icon.png
 
 Requirements
 ------------
