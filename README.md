@@ -2,6 +2,10 @@
 
 Portable Java WebView app for local HTML files and web pages via http / https with useful window customization
 
+Download
+-----------
+[https://github.com/rmellis/JavaWebViewer/releases](https://github.com/rmellis/JavaWebViewer/releases)
+
 Quick Start
 -----------
 
