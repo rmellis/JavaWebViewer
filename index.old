@@ -508,47 +508,10 @@ body {
                     </span>
                     </button>
                     </a>
-                    <a href="https://app.diagrams.net/">
+                    <a href="https://puter.com">
                     <button class="btn btn-secondary">
                     <span style="font-size:22px;">
-                    <span style="font-family:Verdana, Geneva, sans-serif;font-size:22px;">Flowchart</span>
-                    </span>
-                    </button>
-                    </a>
-                    <a href="https://code.puter.com/?puter.app_instance_id=a6f84c5a-ad0b-45ab-8e08-358569cb15aa&puter.app.id=app-37f0039b-bf77-44f8-8f6c-701f6fcd4bc5&puter.app.name=code&puter.parent_instance_id=cccc&puter.source_app.title=App+Center&puter.source_app.id=app-a2ae72a4-1ba3-4a29-b5c0-6de1be5cf178&puter.source_app.name=app-center&puter.auth.token=cccc&puter.domain=puter.com&puter.origin=https%3A%2F%2Fputer.com&puter.hostname=puter.com&puter.port=&puter.protocol=https&puter.api_origin=https%3A%2F%2Fapi.puter.com&puter.locale=en&puter.args=%7B%7D&utm_source=puter.com">
-                    <button class="btn btn-secondary">
-                    <span style="font-size:22px;">
-                    <span style="font-family:Verdana, Geneva, sans-serif;font-size:22px;">VS&nbsp;Code</span>
-                    </span>
-                    </button>
-                    </a>
-              </div><br>
-				<div class="hero-buttons">
-                  <a href="https://codepen.io/rmellis/full/JoKZBZy">
-                    <button class="btn btn-secondary">
-                    <span style="font-size:22px;">
-                    <span style="font-family:Verdana, Geneva, sans-serif;font-size:22px;">PowerPoint</span>
-                    </span>
-                    </button>
-                    </a>
-                    <a href="https:/openpublisher.app">
-                    <button class="btn btn-secondary">
-                    <span style="font-size:22px;">
-                      <span style="font-family:Verdana, Geneva, sans-serif;font-size:22px;">Publisher</span>
-                  </span>
-                    </button>
-                    </a>
-                    <a href="https://codepen.io/rmellis/full/emzMMrG">
-                    <button class="btn btn-secondary">
-                    <span style="font-size:22px;">
-                    <span style="font-family:Verdana, Geneva, sans-serif;font-size:22px;">TinyMCE</span>
-                    </span>
-                    </button>
-                    </a>
-                    <a href="https://codepen.io/rmellis/full/MYeGOBJ">
-                    <button class="btn btn-secondary">
-                    <span style="font-size:22px;">
-                    <span style="font-family:Verdana, Geneva, sans-serif;font-size:22px;">Spreadsheet</span>
+                    <span style="font-family:Verdana, Geneva, sans-serif;font-size:22px;">Puter</span>
                     </span>
                     </button>
                     </a>
